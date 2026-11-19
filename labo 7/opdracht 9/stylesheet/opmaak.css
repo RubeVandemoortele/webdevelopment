@@ -1,0 +1,33 @@
+.kalender {
+    border: 1px solid black;
+    border-spacing: 2px;
+    text-align: center;
+}
+
+.kalender tr:first-child th {
+    background-color: rgb(170, 170, 200);
+}
+
+.dagen th {
+    color: rgb(200, 190, 240);
+    background-color: rgb(35, 37, 70);
+}
+
+.kalender td {
+    border: 1px dotted black;
+    padding: 5px;
+}
+
+.kalender tr td:first-child,
+.kalender tr td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+.buiten-maand {
+    background-color: rgb(190, 190, 190);
+    color: gray;
+}
+
+.feestdag {
+    background-color: rgb(250, 120, 120);
+}

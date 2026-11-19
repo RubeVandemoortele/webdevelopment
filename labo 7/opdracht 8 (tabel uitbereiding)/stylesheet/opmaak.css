@@ -1,0 +1,193 @@
+
+.datagrid table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+.datagrid {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden;
+    border: 1px solid #991821;
+    border-radius: 3px;
+}
+
+.datagrid table td,
+.datagrid table th {
+    padding: 3px 10px;
+}
+
+.datagrid table thead th {
+    background: linear-gradient(to bottom, #991821 5%, #80141C 100%);
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 1px solid #B01C26;
+}
+
+.datagrid table thead th:first-child {
+    border: none;
+}
+
+.datagrid table tbody td {
+    color: #80141C;
+    border-left: 1px solid #F7CDCD;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.datagrid table tbody .alt td {
+    background: #F7CDCD;
+    color: #80141C;
+}
+
+.datagrid table tbody td:first-child {
+    border-left: none;
+}
+
+.datagrid table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.datagrid table tfoot td div {
+    border-top: 1px solid #991821;
+    background: #F7CDCD;
+    padding: 2px;
+}
+
+.datagrid table tfoot td {
+    padding: 0;
+    font-size: 12px;
+}
+
+.datagrid table tfoot td ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.datagrid table tfoot li {
+    display: inline;
+}
+
+.datagrid table tfoot li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 1px;
+    color: #FFFFFF;
+    border: 1px solid #991821;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #991821 5%, #80141C 100%);
+}
+
+.datagrid table tfoot ul.active,
+.datagrid table tfoot ul a:hover {
+    text-decoration: none;
+    border-color: #80141C;
+    color: #FFFFFF;
+    background-color: #991821;
+}
+
+
+/* Onbekende gegevens rood kleuren */
+.onbekend {
+    background-color: red;
+}
+
+/* Oplossing voor CSS-specificiteit */
+.datagrid table tbody .alt td.onbekend {
+    background-color: red;
+}
+
+
+/* Opmaak van de index */
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #EDF2F4;
+    color: #2B2D42;
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+header {
+    padding: 30px;
+    background-color: #2B2D42;
+    color: #EDF2F4;
+}
+
+h1 {
+    margin: 0 0 15px 0;
+    font-size: 3em;
+    font-variant: small-caps;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    width: 200px;
+}
+
+.menu li > a {
+    color: #8D99AE;
+}
+
+div {
+    margin: 10px 30px;
+    padding: 20px 30px;
+    background-color: #8D99AE;
+}
+
+h2 {
+    margin: 0 0 15px 0;
+    font-size: 1.6em;
+    text-transform: capitalize;
+}
+
+p {
+    margin: 20px 0;
+}
+
+.hobbys {
+    list-style: square;
+    padding-left: 25px;
+}
+
+.hobbys li {
+    margin: 15px 0;
+}
+
+a {
+    color: #EF233C;
+}
+
+a:hover {
+    border: 2px solid #2B2D42;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.kleine_foto {
+    width: 150px;
+}
+
+footer {
+    margin: 10px 30px 0 30px;
+}
+
+.stippeltjesrand {
+    border: 2px dotted #2B2D42;
+    padding: 10px;
+    margin: 0;
+}

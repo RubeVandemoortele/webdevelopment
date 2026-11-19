@@ -1,0 +1,87 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #EDF2F4;
+    color: #2B2D42;
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+header {
+    padding: 30px;
+    background-color: #2B2D42;
+    color: #EDF2F4;
+}
+
+h1 {
+    margin: 0 0 15px 0;
+    font-size: 3em;
+    font-variant: small-caps;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    width: 200px;
+}
+
+.menu li > a {
+    color: #8D99AE;
+}
+
+div {
+    margin: 10px 30px;
+    padding: 20px 30px;
+    background-color: #8D99AE;
+}
+
+h2 {
+    margin: 0 0 15px 0;
+    font-size: 1.6em;
+    text-transform: capitalize;
+}
+
+p {
+    margin: 20px 0;
+}
+
+.hobbys {
+    list-style: square;
+    padding-left: 25px;
+}
+
+.hobbys li {
+    margin: 15px 0;
+}
+
+a {
+    color: #EF233C;
+}
+
+a:hover {
+    border: 2px solid #2B2D42;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.kleine_foto {
+    width: 150px;
+}
+
+footer {
+    margin: 10px 30px 0 30px;
+}
+
+.stippeltjesrand {
+    border: 2px dotted #2B2D42;
+    padding: 10px;
+    margin: 0;
+}
